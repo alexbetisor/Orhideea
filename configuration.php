@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'mysql2.000webhost.com';
-	public $user = 'a5353188_orhidee';
-	public $password = 'admin123';
-	public $db = 'a5353188_orhidee';
+	public $host = 'localhost';
+	public $user = 'root';
+	public $password = '';
+	public $db = 'orhideea';
 	public $dbprefix = 'pm961_';
 	public $live_site = '';
 	public $secret = 'c6IEjH99Rj2jxotD';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '1';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/home/a5353188/public_html/logs';
-	public $tmp_path = '/home/a5353188/public_html/tmp';
+	public $log_path = 'logs';
+	public $tmp_path = 'tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
