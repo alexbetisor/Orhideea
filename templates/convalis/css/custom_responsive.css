@@ -1,0 +1,232 @@
+ /*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+@media screen and (max-width: 980px) {
+	.top_menu_poz_navbar,
+	#mmenu_holder{
+		width:280px!important;
+		margin-top:10px;
+	}
+	#default_video{
+		width:100%!important;
+	}
+}
+@media screen and (max-width: 1200px) {
+.horiznav ul.menunav{
+	width:70%!important;
+}
+}
+
+@media screen and (max-width: 1200px) {
+#topmenu_holder.dropped{
+	width:100%!important;
+}
+}
+
+/* Shadow slider */
+@media only screen and (min-width: 981px) and (max-width: 1199px) {
+	#YjArtoSlider .slideintroPoz,
+	#YjArtoSlider .content{
+		width:980px!important;
+	}
+	#YjArtoSlider .video-js{
+		width:500px!important;
+		height:290px!important;
+	}
+	#YjArtoSlider #prev,
+	#YjArtoSlider #next {
+		display:none!important;
+	}
+}
+@media only screen and (max-width: 980px) {
+	#YjArtoSlider .slideintroPoz,
+	#YjArtoSlider .content{
+		width:100%!important;
+	}
+	#YjArtoSlider .introPartsLeft{
+		width:60%!important;
+		padding:0 20px!important;
+	}
+	#YjArtoSlider .slideintro h1:after{
+		left:20px;
+	}
+	
+}
+@media only screen and (min-width: 280px) and (max-width: 980px) {
+	#YjArtoSlider .slides ul li img,
+	#YjArtoSlider .placement img {
+		height:auto!important;
+	}
+	#YjArtoSlider .video-js{
+		width:370px!important;
+		height:210px!important;
+	}
+}
+@media screen and (max-width: 750px) {
+	#YjArtoSlider .introPartsRight{
+		display:none!important;
+		padding:20px;
+	}
+	#YjArtoSlider .video-js{
+		width:570px!important;
+		height:320px!important;
+		margin:0 auto!important;
+		float:none!important;
+	}
+}
+@media screen and (max-width: 630px) {
+#YjArtoSlider .navigation a{
+	width:100px;
+}
+}
+@media only screen and (min-width: 280px) and (max-width: 569px) {
+	#YjArtoSlider .video-js{
+		width:100%!important;
+		height:320px!important;
+		margin:0 auto!important;
+		float:none!important;
+	}
+}
+@media only screen and (max-width: 450px) {
+#YjArtoSlider .navigation {
+	left:10px;
+	right:auto;
+}
+#YjArtoSlider .introPartsRight{
+	width:90%!important;
+	padding:20px!important;
+}
+#YjArtoSlider,
+#YjArtoSlider .overlay, 
+#YjArtoSlider .yjartoBgs, 
+#YjArtoSlider .over_div, 
+#YjArtoSlider .over_div .placement,
+#YjArtoSlider .slider .slides, 
+#YjArtoSlider .slides ul, 
+#YjArtoSlider .slides ul li{
+	height:740px!important;
+}
+}
+@media screen and (max-width: 365px) {
+#YjArtoSlider .navigation a{
+	width:80px;
+}
+}
+@media only screen and (max-width: 340px) {
+#YjArtoSlider,
+#YjArtoSlider .overlay, 
+#YjArtoSlider .yjartoBgs, 
+#YjArtoSlider .over_div, 
+#YjArtoSlider .over_div .placement,
+#YjArtoSlider .slider .slides, 
+#YjArtoSlider .slides ul, 
+#YjArtoSlider .slides ul li{
+	height:820px!important;
+}
+}
+/*  Module engine */
+@media screen and (max-width: 1199px) {
+.cme .yjme_item div.imageholder,
+.cme .yjme_item a.item_image,
+.cme span.yj_hover_effect,
+.cme img{
+	max-width:100%!important;
+	height:auto!important;
+}
+.cme .yjme_item {
+	margin:0 10px 0 0!important;
+}
+}
+@media screen and (max-width: 480px) {
+.cme .yjme_item{
+	width:100%;
+	float:none;
+}
+.cme .yjme_item div.imageholder{
+	margin:15px auto;
+}
+.cme .yjme_item a.item_title{
+	text-align:center;
+}
+.cme .yjme_item a.item_readmore{
+	margin:10px auto;
+	float:none;
+}
+}
+/* Custom responsive */
+@media screen and (max-width: 980px) {
+#user1,
+#user2{
+	width:100%!important;
+}
+#user1 h2.module_title,
+#user1 p{
+	text-align:center;
+}
+#user1 br{
+	display:none;
+}
+}
+@media screen and (max-width: 980px) {
+#user6,#user7{
+	width:100%!important;
+}
+.csubscribe{
+	padding:0 0 0 20px;
+}
+}
+@media screen and (max-width: 380px) {
+.csubscribe_button{
+	margin:0px!important;
+	clear:both;
+	display:block;
+}
+}
+/* York module with engine */
+@media screen and (max-width: 1199px) {
+.cym #yy_container,
+.cym .yy_container,
+.cym .yy_slider,
+.cym .yy_slider .yy_slideitems,
+.cym .yy_slider .yy_slideitems_in {
+	width:100%!important;
+	height:320px!important;
+}
+.cym .yjme_item div.imageholder,
+.cym .yjme_item a.item_image,
+.cym span.yj_hover_effect,
+.cym img{
+	max-width:100%!important;
+	height:auto!important;
+}
+}
+@media screen and (max-width: 645px) {
+.cym #yy_container,
+.cym .yy_container,
+.cym .yy_slider,
+.cym .yy_slider .yy_slideitems,
+.cym .yy_slider .yy_slideitems_in {
+	height:1200px!important;
+}
+.cym .yjme_item, .cmt .yjme_item{
+	width:100%;
+	float:none;
+}
+.cym .yjme_item div.imageholder{
+	margin:15px auto;
+}
+.cym .yjme_item a.item_title,
+.cym .yjme_item p.item_intro{
+	text-align:center;
+}
+}

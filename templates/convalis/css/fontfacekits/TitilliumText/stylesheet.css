@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'TitilliumText25L600wt';
+    src: url('TitilliumText25L002-webfont.eot');
+    src: url('TitilliumText25L002-webfont.eot?#iefix') format('embedded-opentype'),
+         url('TitilliumText25L002-webfont.svg#TitilliumText25L600wt') format('svg'),
+         url('TitilliumText25L002-webfont.woff') format('woff'),
+         url('TitilliumText25L002-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TitilliumText25L400wt';
+    src: url('TitilliumText25L003-webfont.eot');
+    src: url('TitilliumText25L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('TitilliumText25L003-webfont.svg#TitilliumText25L400wt') format('svg'),
+         url('TitilliumText25L003-webfont.woff') format('woff'),
+         url('TitilliumText25L003-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TitilliumText25L999wt';
+    src: url('TitilliumText25L-webfont.eot');
+    src: url('TitilliumText25L-webfont.eot?#iefix') format('embedded-opentype'),
+         url('TitilliumText25L-webfont.svg#TitilliumText25L999wt') format('svg'),	
+         url('TitilliumText25L-webfont.woff') format('woff'),
+         url('TitilliumText25L-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.horiznav a{
+    font-family:'TitilliumText25L600wt', Arial, sans-serif!important;
+	font-size:120%;
+	font-weight:normal;
+	text-transform:capitalize;
+}
+ul.subul_main a,.top_menu .horiznav .group_holder li.haschild a{
+	font-weight:normal!important;
+	text-transform:capitalize!important;
+	font-size:100%!important;
+}
+/* Regular */
+.ccm p,.cme .yjme_item div.item_details,.cme2 .yjme_item div.item_details,
+.cym .yjme_item div.item_details,.csubscribe_inputbox,.small_intro,#YjArtoSlider .slideintro p,
+.custom_intro,span.catItemAuthor,ul.catItemTags li a,div.catItemTagsBlock span,div.catItemCommentsLink,
+div.catItemCategory,div.itemCategory,div.itemTagsBlock ul.itemTags li a,div.itemCommentsLink,
+span.itemAuthor,div.itemContentFooter,div.pre25SocialLinks,div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorUrl,
+div.itemNavigation,div.itemComments ul.itemCommentsList li span.commentDate,div.itemCommentsForm p.itemCommentsFormNotes,
+div.itemToolbar ul li,div.itemRatingBlock,div.k2TagCloudBlock a,.yjsg-article-category ul li h6{
+	font-weight:normal!important;
+    font-family:'TitilliumText25L400wt', Arial, sans-serif!important;
+}
+/* Semibold */
+h1,h2,h3,h4,h5,h6,.article_title,.module_title,.pagetitle,
+.cme2 .yjme_item a.item_title,.clt div.yj_twitter_updated,
+span.catItemDateCreated,span.itemDateCreated,div.itemComments ul.itemCommentsList li span.commentAuthorName,
+div.k2ItemsBlock ul li a.moduleItemTitle,div.k2LatestCommentsBlock ul li span.lcUsername,.yj_title,.yj_category,
+.cmt ul#tabs li,.yj_skill_label,.team_member_tag,span#yjmm_selectid{
+	font-weight:normal!important;
+    font-family:'TitilliumText25L600wt', Arial, sans-serif!important;
+}
+/* Bold */
+a.tempalte_readmore,a.tempalte_readmore2,.cme .yjme_item a.item_readmore,
+.cym .yjme_item a.item_readmore,.csubscribe_button,
+.cme .yjme_item a.item_title,.cym .yjme_item a.item_title,a.subCategoryMore, a.subCategoryMore:visited,
+div.catItemReadMore a,div.itemReadMore a,#submitCommentButton,.button,.validate,a.readon,
+.cmt .yjme_item a.item_title,.yj_skill_number{
+	font-weight:normal!important;
+    font-family:'TitilliumText25L999wt', Arial, sans-serif!important;
+}
+/* Black */
+.ccm h1{
+	font-weight:normal!important;
+    font-family:'TitilliumText25L999wt', Arial, sans-serif!important;
+}

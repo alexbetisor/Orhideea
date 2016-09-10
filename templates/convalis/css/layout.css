@@ -1,0 +1,950 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+#header {
+	overflow:hidden;
+}
+/* grids padding */
+.yjsg_grid {
+	padding:40px 0;
+}
+#yjsgheadergrid.yjsg_grid {
+	padding:15px 0;
+}
+#yjsgbodytop {
+	padding:0;
+}
+#yjsgbodybottom {
+	padding:5px 0;
+}
+/* article and module titles font size*/
+.article_title,
+.module_title {
+	font-size:200%;
+}
+.module_title {
+	text-transform: capitalize;
+}
+/* pathway */
+#pathway {
+	margin-bottom:20px;
+}
+/*TOP MENU RESET */
+/* flyouts */
+div.top_menu ul.subul_main,
+div.top_menu ul.subul_main.dropline,
+div.top_menu ul.subul_main {
+	margin-top:5px;
+	padding-top:0!important;
+	padding-bottom:0!important;
+}
+/* mega holder */
+div.YJSG-inner.horiznav {
+	padding-top:7px!important;
+	padding-bottom:7px!important;
+}
+/* mega haschild flyouts */
+.top_menu ul.subul_main.level2,
+.top_menu ul.subul_main.level3,
+.top_menu ul.subul_main.level4 {
+	margin-top:20px;
+}
+/* Menu */
+.horiznav ul.menunav {
+	margin:0 auto;
+	width:57%;/* If your menu is larger, please change this width to your need */
+}
+/* Border radius */
+a.tempalte_readmore,
+a.tempalte_readmore2,
+.cme .yjme_item a.item_readmore,
+.cym .yjme_item a.item_readmore,
+.csubscribe_inputbox,
+.csubscribe_button,
+.cme .yjme_item div.imageholder,
+.cme2 .yjme_item div.imageholder,
+.cym .yjme_item div.imageholder,
+div.subCategory a.subCategoryImage img,
+div.subCategory a.subCategoryImage:hover img,
+a.subCategoryMore,
+a.subCategoryMore:visited,
+div.itemListCategory img,
+span.catItemImage,
+span.catItemImage a,
+div.catItemImageBlock,
+span.catItemImage img,
+span.catItemDateCreated,
+ul.catItemTags li,
+div.catItemReadMore a,
+span.itemDateCreated,
+div.itemImageBlock,
+span.itemImage,
+span.itemImage a,
+span.itemImage img,
+div.itemReadMore a,
+div.userBlock img,
+ul.itemTags li,
+div.itemAuthorBlock img.itemAuthorAvatar,
+div.itemComments ul.itemCommentsList li img,
+a.moduleItemImage img,
+div.k2LatestCommentsBlock ul li a.lcAvatar img,
+div.k2TagCloudBlock a,
+.cmt .yjme_item div.imageholder,
+.cmt ul#tabs li,
+.yj_skill_bar,
+.cme.team .yjme_item,
+.team_member_tag {
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+/* Extra radius */
+.readon,
+.inputbox,
+.button,
+.validate,
+input,
+#pathway .breadcrumb,
+.popbox img,
+.popboxv img,
+.add-on,
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle,
+#midblock .newsitem_tools ul {
+	-webkit-border-radius:3px!important;
+	-khtml-border-radius:3px!important;
+	-moz-border-radius:3px!important;
+	border-radius:3px!important;
+	text-shadow:none!important;
+}
+/* Additional */
+#footer {
+	padding:10px 0;
+}
+#go_right .affix {
+	top:120px;
+}
+.button,
+.validate,
+a.readon {
+	padding:10px 20px!important;
+	border:none!important;
+	font-size:110%!important;
+	height:auto;
+	width:auto;
+	text-transform:uppercase;
+}
+/* Tempalte readmore buttons */
+a.tempalte_readmore,
+a.tempalte_readmore2 {
+	display:table;
+	overflow:hidden;
+	font-size:150%;
+	text-align:center;
+	text-transform:uppercase;
+	padding:25px 35px;
+	margin:0;
+}
+a.tempalte_readmore {
+	padding:20px 30px;
+}
+a.template_readmore3 {
+	text-transform:uppercase;
+	font-size:80%;
+	letter-spacing:-1px;
+}
+/* Shadow slider */
+#YjArtoSlider {
+	width:100%;
+	display:block;
+	position:relative;
+	z-index:100;
+	height:0px;
+	overflow:hidden;
+}
+#YjArtoSlider .overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:2000;
+}
+#YjArtoSlider .yjartoBgs {
+	width:100%;
+	display:block;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+#YjArtoSlider .content {
+	display:block;
+	position:relative;
+	margin:0px auto;
+}
+#YjArtoSlider .slider {
+	display:block;
+	position:relative;
+	clear:both;
+	margin:0px auto;
+}
+#YjArtoSlider .over_div {
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0;
+	z-index:1000;
+	width:100%;
+}
+#YjArtoSlider .over_div .placement {
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	background:none;
+	width:100%;
+	overflow:hidden;
+}
+#YjArtoSlider .over_div .placement li {
+	list-style-type:none;
+	background:none;
+	margin:0px;
+	padding:0px;
+}
+/* the slides */
+#YjArtoSlider .slider .slides {
+	display:block;
+	position:relative;
+	width:100%;
+}
+#YjArtoSlider .slides ul {
+	display:block;
+	position:relative;
+	width:9999px;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	z-index:1;
+}
+#YjArtoSlider .slides ul li {
+	float:left;
+	overflow:hidden;
+	margin:0px 0 0 0;
+	padding:0px;
+	list-style-type:none;
+	background:none;
+}
+/* the navigation */
+#YjArtoSlider .navigation {
+	display:block;
+	z-index:4000;
+	height:20px;
+	line-height:15px;
+	padding:0 10px;
+	margin:-20px 0 0 0;
+	text-align:center;
+	overflow:hidden;
+	z-index:2000;
+}
+#YjArtoSlider .navigation a {
+	width:190px;
+	height:20px;
+	line-height:20px;
+	font-size:15px;
+	display:inline-block;
+	position:relative;
+	margin-right:0;
+	z-index:10000;
+}
+#YjArtoSlider #prev,
+#YjArtoSlider #next {
+	position:absolute;
+	top:140px;
+	left:10px;
+	z-index:3000;
+	width:40px;
+	height:40px;
+	text-indent:-999px;
+	overflow:hidden;
+	display:none;
+}
+#YjArtoSlider #next {
+	left:auto;
+	right:10px;
+}
+#YjArtoSlider #prev:hover,
+#YjArtoSlider #next:hover {
+	background-position:left bottom;
+}
+#YjArtoSlider .slideintroPoz {
+	display:block;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+#YjArtoSlider .slideintro {
+	position:absolute;
+	z-index:3000;
+	text-align:left;
+	margin:0;
+	left:0px;
+	bottom:-200px;
+	padding:10px 0;
+	overflow:hidden;
+	display:block;
+	width:100%!important;
+}
+#YjArtoSlider .introPartsLeft {
+	width:40%;
+	float:left;
+	display:block;
+	overflow:hidden;
+}
+#YjArtoSlider .introPartsRight {
+	width:60%;
+	float:right;
+	display:block;
+	overflow:hidden;
+}
+#YjArtoSlider .introParts.SlideVideo .video-js {
+	float:right;
+}
+#YjArtoSlider .slideintro h1 {
+	font-size:300%;
+	line-height:36px;
+	display:table;
+	padding:0;
+	margin:0 0 25px 0;
+}
+#YjArtoSlider .slideintro h1:after {
+	content: '';
+	width:170px;
+	height:5px;
+	position:absolute;
+	left:0;
+	top:40px;
+}
+#YjArtoSlider #html5vimeo,
+#YjArtoSlider #html5vimeo2 {
+	float:right;
+}
+#YjArtoSlider .slideintro p {
+	font-size:150%;
+	line-height:26px;
+	font-weight:normal!important;
+	margin:0 0 25px 0;
+}
+#YjArtoSlider a.template_readmore,
+#YjArtoSlider a.template_readmore2 {
+	font-size:180%;
+	padding:15px 25px;
+	float:left;
+}
+#YjArtoSlider a.template_readmore {
+	margin:20px 25px 0 0;
+}
+#YjArtoSlider .slideintro span.bgdark,
+#YjArtoSlider .slideintro span.bgwhite {
+	padding:3px 10px;
+}
+#YjArtoSlider .slideintro span.bgwhite {
+	padding:3px 10px;
+}
+/* Custom module adv1 */
+.ccm h1 {
+	text-align:center;
+	font-size:300%;
+	text-transform:uppercase;
+}
+.ccm p {
+	text-align:center;
+	font-size:150%;
+	line-height:30px;
+	padding:0 80px;
+}
+.ccm a.tempalte_readmore2 {
+	margin:30px auto;
+}
+/* Module engine user2,inside york,user19,multitabs */
+.cme {
+	margin:10px 0 0 0;
+}
+.cme .yjme_item {
+	float:left;
+	clear:none;
+	width:31%;
+	margin:0 10px;
+}
+.cym .yjme_item,
+.cmt .yjme_item {
+	width:25%;
+	float:left;
+	clear:none;
+	margin:0;
+}
+.cme .yjme_item_in,
+.cym .yjme_item_in,
+.cmt .yjme_item_in {
+	padding:0;
+	margin:0;
+	border:none;
+}
+.cym .yjme_item_in,
+.cmt .yjme_item_in {
+	margin:0 28px 0 0;
+}
+.cme2 .yjme_item_in {
+	padding:10px 0 20px 0;
+}
+.cme .yjme_item div.imageholder,
+.cym .yjme_item div.imageholder,
+.cme2 .yjme_item div.imageholder,
+.cmt .yjme_item div.imageholder {
+	padding:0;
+	margin:0 0 15px 0;
+	border:none;
+	background:none;
+}
+.cme2 .yjme_item div.imageholder {
+	margin:0 20px 0 0;
+}
+.cme .yjme_item a.item_title,
+.cym .yjme_item a.item_title,
+.cmt .yjme_item a.item_title {
+	font-size:150%;
+	line-height:20px;
+	line-height:24px;
+}
+.cme2 .yjme_item a.item_title {
+	clear:none;
+	font-size:120%;
+}
+.cme .yjme_item p.item_intro,
+.cym .yjme_item p.item_intro,
+.cmt .yjme_item p.item_intro {
+	line-height:22px!important;
+}
+.cme .yjme_item div.item_details,
+.cme2 .yjme_item div.item_details,
+.cym .yjme_item div.item_details,
+.cmt .yjme_item div.item_details {
+	float:none;
+	height:auto;
+}
+.cme .yjme_item a.item_readmore,
+.cym .yjme_item a.item_readmore,
+.cmt .yjme_item a.item_readmore {
+	padding:10px 20px;
+	border:none;
+	font-size:110%;
+	margin:20px 0;
+	height:auto;
+	width:auto;
+	text-transform:uppercase;
+	float:left;
+	line-height:13px;
+}
+.cme .yjme_item a.item_readmore span,
+.cym .yjme_item a.item_readmore span,
+.cmt .yjme_item a.item_readmore span {
+	padding:0;
+	height:auto;
+	line-height:13px;
+}
+.cme2 .clearnf {
+	display:none;
+}
+/* Team module engine */
+.cme.team {
+	margin-bottom:40px;
+}
+.cme.team h2.module_title {
+	padding-left:10px;
+}
+.cme.team .yjme_item {
+	position:relative;
+	width:22%;
+	padding:5px;
+}
+.cme.team .yjme_item div.imageholder {
+	margin:0 0 10px 0;
+	border-radius:0;
+}
+.cme.team .yjme_item div.imageholder img {
+	opacity:1!important;
+}
+.cme.team .yjme_item a.item_title {
+	font-size:125%;
+}
+.cme.team .yjme_item a.item_title {
+	padding:0 5px;
+}
+.cme.team .yjme_item p.item_intro {
+	padding:0 5px 30px 5px;
+}
+.cme.team .team_twitter,
+.cme.team .team_facebook {
+	position:absolute;
+	bottom:5px;
+}
+.cme.team .team_facebook {
+	left:30px;
+}
+.cme.team .team_member_tag {
+	position:absolute;
+	padding:0 10px 0 5px;
+	text-transform:uppercase;
+	top:50px;
+	right:-150px;
+}
+/* Custom module user6 */	
+.custom_holder {
+	display:block;
+	overflow:hidden;
+	padding:0 70px;
+	margin:0 0 20px 0;
+}
+.custom_holder h2 {
+	margin:0 0 20px 0;
+	line-height:24px;
+}
+/* Subscribe module user7 */
+.csubscribe h2.module_title {
+	margin:5px 0 20px 0;
+	line-height:24px;
+}
+.csubscribe p {
+	margin:0;
+}
+.csubscribe form {
+	margin:20px 0;
+}
+.csubscribe_inputbox {
+	padding:15px 10px!important;
+	font-size:100%;
+	text-transform:uppercase;
+	float:left;
+	margin:0;
+	width:60%;
+}
+.csubscribe_button {
+	font-size:110%;
+	text-transform:uppercase;
+	padding:15px 20px;
+	margin:0 0 0 30px;
+	border:none;
+}
+.small_intro {
+	font-size:90%;
+	font-style:italic;
+}
+/* York module */
+.cym .yy_container {
+	background:none;
+}
+.cym .yy_slider .yy_slideitems_in {
+	padding:0;
+	background:none;
+}
+/* navigation */
+.yy_container .linkForward,
+.yy_container .linkBackward {
+	right:40px;
+	top:-35px;
+	width:21px;
+	height:21px;
+}
+.yy_container .linkBackward {
+	right:65px;
+	left:auto;
+}
+.yy_container .linkForward:hover {
+	background-position:-21px bottom;
+}
+.yy_container .linkBackward:hover {
+	background-position:left bottom;
+}
+/* bottom navigation */
+div.yy_ul_left,
+ul.yy_bottom_navigation {
+	background:none;
+}
+ul.yy_bottom_navigation li {
+	width:12px;
+	height:12px;
+	margin:0 3px!important;
+}
+ul.yy_bottom_navigation li a {
+	width:12px;
+	height:12px;
+}
+/* Convalis list */
+.convalis_list {
+	margin-right:40px;
+}
+.convalis_list li {
+	background:none;
+	padding:7px 0;
+}
+.convalis_list li a {
+	padding:0 0 0 15px;
+}
+/* Latest Tweets */
+.clt {
+	margin-right:20px;
+}
+.clt div.yj_twitter_cont {
+	padding:10px 0;
+}
+.clt div.yj_twitter_updated {
+	text-align:left;
+	margin:5px 0;
+	font-style:normal;
+	font-size:110%;
+}
+/* Multitabs */
+.cmt {
+	padding:0;
+}
+.cmt #tabs_holder {
+	border:none;
+}
+.cmt #tabs_container .tab_content_in {
+	padding:40px 0 0 0;
+}
+.cmt ul#tabs {
+	overflow:hidden;
+	height:35px!important;
+}
+.cmt ul#tabs li {
+	height:35px;
+	line-height:35px;
+	padding:0;
+	font-size:130%!important;
+	margin:0 10px 0 0;
+}
+/* Creative Squad */
+.yj_skill_holder,
+.yj_skill_artcle {
+	float:left;
+	display:block;
+	overflow:hidden;
+	width:45%;
+	margin:40px 0 20px 0;
+}
+.yj_skill_artcle {
+	width:55%;
+}
+.yj_skill_label {
+	display:block;
+	overflow:hidden;
+	clear:both;
+	font-size:120%;
+	width:100%;
+	text-transform:capitalize;
+}
+.yj_bar_number_holder {
+	display:block;
+	overflow:hidden;
+	width:100%;
+	margin-bottom:20px;
+}
+.yj_skill_bar {
+	float:left;
+	width:70%;
+	margin:4px 10px 0 0;
+}
+.yj_skill_bar,
+.yj_skill_bar_in {
+	display:block;
+	overflow:hidden;
+	height:20px;
+}
+.yj_skill_bar_in.wordpress,
+.yj_skill_bar_in.joomla,
+.yj_skill_bar_in.magento {
+	width:90%;
+}
+.yj_skill_bar_in.joomla {
+	width:100%;
+}
+.yj_skill_bar_in.magento {
+	width:80%;
+}
+.yj_skill_number {
+	display:block;
+	overflow:hidden;
+	font-size:30px;
+	line-height:30px;
+}
+.team_twitter,
+.team_facebook {
+	display:block;
+	overflow:hidden;
+	width:21px;
+	height:15px;
+	text-indent:-9999px;
+	float:left;
+	margin-right:10px;
+}
+.team_facebook {
+	float:none;
+	width:16px;
+	height:16px;
+}
+/* Custom colored block */
+.custom_h1 {
+	line-height:36px;
+	text-transform:none;
+	font-size:300%;
+	padding:0;
+	margin:0;
+}
+.custom_intro {
+	font-size:110%;
+}
+/* Module styles */
+/* yj4, yj5 */
+.yj4,
+.yj5 {
+	padding:20px;
+}
+.yj4 .yjsquare_in,
+.yj5 .yjsquare_in {
+	padding:0;
+}
+.yj4 h2.module_title,
+.yj4 h2.module_title span,
+.yj5 h2.module_title,
+.yj5 h2.module_title span {
+	margin:0;
+}
+/* K2 */
+/* K2 holders */
+.yjk2_holder {
+	display:block;
+	overflow:hidden;
+	float:left;
+	padding:0 60px 0 0;
+}
+.yjk2_holder_right {
+	display:block;
+	overflow:hidden;
+	padding:0 0 0 30px;
+}
+.yj_related_latest {
+	display:block;
+	overflow:hidden;
+}
+/* K2 modules */
+.ck2menu,
+.ck2conent,
+.ck2comments,
+.ck2tags {
+	margin:40px 0 0 0;
+}
+.ck2menu .k2CategoriesListBlock.ck2menu,
+.ck2conent .k2ItemsBlock.ck2conent,
+.ck2comments .k2LatestCommentsBlock.ck2comments,
+.ck2tags .k2TagCloudBlock.ck2tags {
+	margin:0;
+}
+/* Hover effect */
+.yj_hover_effect {
+	position:relative;
+	overflow:hidden;
+	display:block;
+}
+.yj_readmore,
+.yj_zoom {
+	position:absolute;
+	width:30px;
+	height:30px;
+	right:-30px;
+	bottom:10px;
+	text-indent:-9999px;
+	z-index:10000;
+}
+.yj_zoom {
+	right:auto;
+	left:-30px;
+}
+.yj_readmore:hover,
+.yj_zoom:hover {
+	background-position:left bottom;
+}
+.yj_titcat {
+	position:absolute;
+	text-align:center;
+	opacity:0;
+	top:35%;
+	width:100%;
+}
+.yj_title {
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	font-size:150%;
+}
+.yj_category {
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:100%!important;
+}
+.cme2 .yj_title,
+.cme2 .yj_category,
+.itemview .yj_readmore,
+.itemview .yj_zoom,
+.cme.team .yj_readmore,
+.cme.team .yj_zoom,
+.cme.team .yj_category,
+.cme.team .yj_title {
+	display:none!important;
+}
+.cme.team .yj_hover_effect {
+	background:none;
+}
+.cme2 .yj_readmore,
+.cme2 .yj_zoom {
+	bottom:17px;
+}
+#k2Container .itemList .yj_hover_effect,
+.latestView .yj_hover_effect,
+.itemView .yj_hover_effect {
+	height:300px!important;
+}
+#k2Container .itemList .yj_hover_effect .yj_title,
+.latestView .yj_title,
+.itemView .yj_title {
+	font-size:350%!important;
+	line-height:45px;
+}
+#k2Container .itemList .yj_hover_effect .yj_category,
+.latestView .yj_hover_effect .yj_category,
+.itemView .yj_category {
+	font-size:120%!important;
+}
+/* Rtl */
+.yjsgrtl #YjArtoSlider .slideintro h1:after {
+	left:300px;
+}
+.yjsgrtl .cme .yjme_item a.item_readmore,
+.yjsgrtl .csubscribe_inputbox,
+.yjsgrtl .item_details .item_category,
+.yjsgrtl .item_details .item_cdate,
+.yjsgrtl .item_details .item_author,
+.yjsgrtl a.subCategoryMore,
+.yjsgrtl a.subCategoryMore:visited,
+.yjsgrtl div.catItemReadMore a,
+.yjsgrtl ul.preSocialLinks,
+.yjsgrtl ul.preSocialLinks li,
+.yjsgrtl div.itemReadMore a,
+.yjsgrtl .cmt ul#tabs li {
+	float:right;
+}
+.yjsgrtl .custom_holder {
+	background-position:right top;
+}
+.yjsgrtl .custom_holder.second {
+	background-position:right -105px;
+}
+.yjsgrtl .csubscribe_button {
+	margin:0 30px 0 0;
+}
+.yjsgrtl .yy_container .linkForward,
+.yjsgrtl .yy_container .linkBackward {
+	left:65px;
+	right:auto;
+}
+.yjsgrtl .yy_container .linkBackward {
+	left:40px;
+	right:auto;
+}
+.yjsgrtl .cym .yjme_item_in,
+.yjsgrtl .cmt .yjme_item_in {
+	margin:0 2px 0 28px;
+}
+.yjsgrtl .convalis_list {
+	margin-left:40px;
+	margin-right:0;
+}
+.yjsgrtl .convalis_list li a {
+	background-position:right center;
+	padding:0 15px 0 0;
+}
+.yjsgrtl .clt {
+	margin-left:20px;
+	margin-right:0;
+}
+.yjsgrtl .clt div.yj_twitter_updated {
+	text-align:right;
+}
+.yjsgrtl .cme2 .yjme_item div.imageholder,
+.yjsgrtl .ck2conent a.moduleItemImage,
+.yjsgrtl .ck2comments a.lcAvatar img {
+	margin:0 0 0 20px;
+	float:right!important;
+}
+.yjsgrtl #holder #k2Container .itemList,
+.yjsgrtl #holder #k2Container.latestView,
+.yjsgrtl #holder2 #k2Container .itemList,
+.yjsgrtl #holder2 #k2Container.latestView,
+.yjsgrtl #holder2 #k2Container.itemView {
+	padding:0 0 0 50px!important;
+	border:none;
+}
+.yjsgrtl #holder3 #k2Container .itemList,
+.yjsgrtl #holder3 #k2Container.latestView,
+.yjsgrtl #holder3 #k2Container.itemView {
+	padding:0 50px 0 0!important;
+	border:none;
+}
+.yjsgrtl div.itemCommentsForm form input#submitCommentButton {
+	clear:both;
+}
+.yjsgrtl .ck2menu ul li a {
+	padding-right:0;
+}
+.yjsgrtl .ck2comments span.lcComment {
+	clear:none;
+}
+.yjsgrtl div.k2TagCloudBlock a {
+	margin:0 0 10px 10px!important;
+	float:right;
+}
+.yjsgrtl div.userBlock {
+	margin:25px 0 0 50px;
+}
+.yjsgrtl .yj_titcat {
+	display:block;
+}
+/* Responsive menu */
+#mmenu_holder {
+	text-align:left!important;
+	margin:20px auto!important;
+	height:auto!important;
+}
+span#yjmm_selectid {
+	font-size:120%!important;
+	width:90%!important;
+	padding:0 10px!important;
+	font-weight:normal!important;
+}
